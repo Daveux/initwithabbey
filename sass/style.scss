@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	a {
 		padding: 5px 10px;
-		color: $brand-white;
+		color: #000;
 	}
 	.menu-1, .menu-2 {
 		@media screen and (max-width: $screen-sm ) {
@@ -1547,7 +1547,7 @@ form {
   	border-bottom: none!important;
   }
   i {
-  	position: relative;
+  	position: fixed;
 	  display: inline-block;
 	  width: 25px;
 	  height: 2px;
@@ -1567,12 +1567,13 @@ form {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.fh5co-nav-white {
+  &.fh5co-nav-black {
   	> i {
-  		color:$brand-white;
-  		background: $brand-white;
+		position: fixed;
+  		color:#000;
+  		background: #000;
   		&::before, &::after {
-  			background: $brand-white;
+  			background: #000;
   		}
   	}
   }
